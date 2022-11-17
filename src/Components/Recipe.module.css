@@ -1,0 +1,8 @@
+.recipe_div{
+    margin: 0 auto;
+    text-align: center;
+}
+.recipe_div li{
+    list-style-image: none;
+    list-style-type: none;
+}

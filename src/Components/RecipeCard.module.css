@@ -1,0 +1,21 @@
+.cards{
+    width: 15%;
+    margin: 1.4em;
+    border-top:0.5px solid black;
+    overflow: hidden;
+}
+
+.cards img{
+    width: 100%;
+    height: auto;
+}
+.cards span{
+    font-weight: bold;
+}
+.cards h1{
+    margin: 0px;
+    font-size: 1.5em;
+    width: 100%;
+    text-overflow: ellipsis;
+
+}
