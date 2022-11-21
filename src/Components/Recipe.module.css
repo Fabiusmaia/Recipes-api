@@ -1,8 +1,52 @@
+
+
 .recipe_div{
-    margin: 0 auto;
-    text-align: center;
+    background-image: linear-gradient(#E2F0C6, #FFDFD3);
+    margin: 0px;
+    padding: 0px;
 }
 .recipe_div li{
     list-style-image: none;
     list-style-type: none;
+}
+.img_div img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+.img_div{
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+}
+hr{
+    margin: 0px;
+    padding: 0px;
+}
+.ingredients{
+    margin: 15px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 2%;
+    font-weight: bold;
+}
+h1{
+    font-size: 3em;
+}
+.instructions{
+    margin: 15px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 2%;
+    font-weight: bold;
+}
+p{
+    font-size: 1.2em;
 }

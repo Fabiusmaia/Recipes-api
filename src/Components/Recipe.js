@@ -2,6 +2,9 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import styles from './Recipe.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBook, faBowlFood, faBowlRice, faCake, faCodeFork, faPlateWheat, faSpoon, faUtensilSpoon} from '@fortawesome/free-solid-svg-icons'
+
 
 function Recipe(){
     const { id } = useParams()
@@ -24,20 +27,23 @@ function Recipe(){
     }, [])
     return(
         <div className={styles.recipe_div}>
-            <h1>{data.strMeal}</h1>
+            <div className={styles.img_div}>
             <img src={data.strMealThumb}/>
-            <hr></hr>
-            <h2>Ingredients</h2>
+            </div>
+            <div className={styles.ingredients}>
+            <h1> <FontAwesomeIcon icon={faBowlRice} /> Ingredients</h1>
             <ul>
                 {filteredIngredients.map((item, index) => (
                     <li>
-                        {item}
+                       <p> {item}</p>
                     </li>
                 ))}
             </ul>
-            <hr></hr>
-            <h2>Instructions</h2>
+            </div>
+            <div className={styles.instructions}>
+            <h1><FontAwesomeIcon icon={faBook} /> Instructions</h1>
             <p>{data.strInstructions}</p>
+            </div>
         </div>
 
     )
