@@ -1,7 +1,6 @@
 
 
 .recipe_div{
-    background-image: linear-gradient(#E2F0C6, #FFDFD3);
     margin: 0px;
     padding: 0px;
 }
@@ -32,7 +31,7 @@ hr{
     margin: 15px auto;
     padding: 20px;
     width: 80%;
-    background-color: aliceblue;
+    background-color: #F1D3B3;
     border-radius: 2%;
     font-weight: bold;
 }
@@ -43,7 +42,7 @@ h1{
     margin: 15px auto;
     padding: 20px;
     width: 80%;
-    background-color: aliceblue;
+    background-color: #F1D3B3;
     border-radius: 2%;
     font-weight: bold;
 }

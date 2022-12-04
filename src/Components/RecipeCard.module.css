@@ -1,5 +1,5 @@
 .cards{
-    width: 15%;
+    width: 20%;
     margin: 1.4em;
     border-top:0.5px solid black;
     overflow: hidden;
@@ -9,6 +9,7 @@
     width: 100%;
     height: auto;
 }
+
 .cards span{
     font-weight: bold;
 }
@@ -18,4 +19,11 @@
     width: 100%;
     text-overflow: ellipsis;
 
+}
+@media screen and (max-width: 800px) {
+    .cards{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
 }

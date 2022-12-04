@@ -1,0 +1,29 @@
+.header_div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-color: #F1D3B3;
+    
+    
+}
+
+.header_div li{
+    margin-left: 10px;
+}
+.header_div ul{
+    display: inline-flex;
+    list-style: none;
+
+}
+.header_form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 800px) {
+    .header_div ul{
+        display: none;
+    }
+}

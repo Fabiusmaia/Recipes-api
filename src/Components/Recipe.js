@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import styles from './Recipe.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBook, faBowlFood, faBowlRice, faCake, faCodeFork, faPlateWheat, faSpoon, faUtensilSpoon} from '@fortawesome/free-solid-svg-icons'
-
+import Header from './Layout/Header'
 
 function Recipe(){
     const { id } = useParams()
